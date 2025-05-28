@@ -6,7 +6,7 @@
 sudo docker-compose up --build -d
 ```
 
-Затем можно обратиться к серверу
+Затем можно обратиться к модели
 
 ```
 curl -X POST "http://localhost:8000/predict_gender"
